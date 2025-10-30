@@ -11,8 +11,8 @@ import AVKit
 import AVFoundation
 
 class TestVC: UIViewController, AVPictureInPictureControllerDelegate{
-    var player: AVPlayer!
-    var playerLayer: AVPlayerLayer!
+        var player: AVPlayer!
+        var playerLayer: AVPlayerLayer!
     var pipController: AVPictureInPictureController?
     
     override func viewDidLoad() {
@@ -25,6 +25,8 @@ class TestVC: UIViewController, AVPictureInPictureControllerDelegate{
     
     deinit {
         // 移除通知监听
+        
+        
         NotificationCenter.default.removeObserver(self)
     }
     
