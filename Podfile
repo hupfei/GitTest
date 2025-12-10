@@ -7,6 +7,9 @@ target 'SwiftDemo' do
   # Pods for SwiftDemo
   pod 'SwifterSwift'
   pod 'BetterCodable'
+  pod 'SnapKit'
+  pod 'lottie-ios'
+  pod 'LookinServer'
 
 end
 

@@ -45,14 +45,28 @@ struct SimpleEntry: TimelineEntry {
 
 struct DemoWidgetEntryView : View {
     var entry: Provider.Entry
-
+    
+    @Environment(\.widgetFamily) private var family
+    
     var body: some View {
-        VStack {
-            Text("Time:")
-            Text(entry.date, style: .time)
-
-            Text("Emoji:")
-            Text(entry.emoji)
+        switch family {
+        case .accessoryInline:
+            HStack {
+                Image(systemName: "brain.head.profile")
+                    .padding(.trailing, 5)
+                Text("iOS 新知 锁屏小组件")
+            }
+            
+        case .accessoryRectangular:
+            VStack {
+                Image(systemName: "brain.head.profile")
+                    .padding(.bottom, 5)
+                Text("iOS 新知")
+                Text("锁屏小组件")
+            }
+            
+        default:
+            Text("iOS 新知")
         }
     }
 }
@@ -61,22 +75,12 @@ struct DemoWidget: Widget {
     let kind: String = "DemoWidget"
 
     var body: some WidgetConfiguration {
-        StaticConfiguration(kind: kind, provider: Provider()) { entry in
-            if #available(iOS 17.0, *) {
+            StaticConfiguration(kind: kind, provider: Provider()) { entry in
                 DemoWidgetEntryView(entry: entry)
                     .containerBackground(.fill.tertiary, for: .widget)
-            } else {
-                if #available(iOS 15.0, *) {
-                    DemoWidgetEntryView(entry: entry)
-                        .padding()
-                        .background()
-                } else {
-                    // Fallback on earlier versions
-                }
             }
+            .configurationDisplayName("锁屏小组件")
+            .description("这是一个锁屏小组件 demo")
+            .supportedFamilies([.systemSmall, .accessoryRectangular, .accessoryInline])
         }
-        .configurationDisplayName("My Widget")
-        .description("This is an example widget.")
-        .supportedFamilies([.systemMedium])
-    }
 }

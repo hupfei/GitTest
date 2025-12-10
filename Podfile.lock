@@ -1,5 +1,10 @@
 PODS:
   - BetterCodable (0.4.0)
+  - LookinServer (1.2.8):
+    - LookinServer/Core (= 1.2.8)
+  - LookinServer/Core (1.2.8)
+  - lottie-ios (4.5.2)
+  - SnapKit (5.7.1)
   - SwifterSwift (8.0.0):
     - SwifterSwift/AppKit (= 8.0.0)
     - SwifterSwift/AppKitNoIBInspectable (= 8.0.0)
@@ -42,17 +47,26 @@ PODS:
 
 DEPENDENCIES:
   - BetterCodable
+  - LookinServer
+  - lottie-ios
+  - SnapKit
   - SwifterSwift
 
 SPEC REPOS:
   trunk:
     - BetterCodable
+    - LookinServer
+    - lottie-ios
+    - SnapKit
     - SwifterSwift
 
 SPEC CHECKSUMS:
   BetterCodable: 3f2a765c9f4089b19debd2a7b904a69fca0a5fda
+  LookinServer: 1b2b61c6402ae29fa22182d48f5cd067b4e99e80
+  lottie-ios: 96784afc26ea031d3e2b6cae342a4b8915072489
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
   SwifterSwift: 517fa61daf5b4c5e3ed13b9f35f4c26b310cfb97
 
-PODFILE CHECKSUM: d73a36fbf290a87a30d5d21b3aeed931a265ead3
+PODFILE CHECKSUM: 0eb6ba0a1e4fb7c4afc8465ecd4547ee0cff6a81
 
 COCOAPODS: 1.16.2

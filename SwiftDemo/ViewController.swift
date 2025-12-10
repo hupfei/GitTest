@@ -3,32 +3,32 @@
 //  SwiftDemo
 //
 //  Created by hupfei on 2025/9/24.
-//https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4
+//
 
+import SnapKit
+import SwifterSwift
 import UIKit
 
 class ViewController: UIViewController {
-    
+    @IBOutlet weak var darkMode: UISwitch!
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setupButton()
+        darkMode.isOn = UserDefaults.standard.bool(forKey: "darkMode")
     }
-            
-    // MARK: - Functions
-    @objc func startActivity() {
+    
+    // 切换深色模式
+    @IBAction func changeMode(_ sender: UISwitch) {
+        //同步keyWindow设置
+        UIApplication.shared.connectedScenes.forEach {
+            if let windowScene = $0 as? UIWindowScene {
+                windowScene.windows.forEach {
+                    $0.overrideUserInterfaceStyle = sender.isOn ? .dark : .light
+                }
+            }
+        }
         
-    }
-    
-    
-    func setupButton() {
-        let button = UIButton(type: .system)
-        button.setTitle("启动", for: .normal)
-        button.backgroundColor = .blue
-        button.setTitleColor(.white, for: .normal)
-        button.frame = CGRect(x: 20, y: 420, width: 150, height: 50)
-        button.addTarget(self, action: #selector(startActivity), for: .touchUpInside)
-        button.layer.cornerRadius = 8
-        view.addSubview(button)
+        UserDefaults.standard.set(sender.isOn, forKey: "darkMode")
+        UserDefaults.standard.synchronize()
     }
 }
