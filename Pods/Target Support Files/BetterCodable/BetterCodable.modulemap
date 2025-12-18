@@ -1,6 +1,0 @@
-framework module BetterCodable {
-  umbrella header "BetterCodable-umbrella.h"
-
-  export *
-  module * { export * }
-}
