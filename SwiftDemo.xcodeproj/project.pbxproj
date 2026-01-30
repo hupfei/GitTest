@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0404C9ED2EF2AA2900A3C7B0 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 0404C9EC2EF2AA2900A3C7B0 /* Lottie */; };
 		0404C9F02EF2AAD900A3C7B0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0404C9EF2EF2AAD900A3C7B0 /* SnapKit */; };
 		0404C9F32EF2AB2100A3C7B0 /* BetterCodable in Frameworks */ = {isa = PBXBuildFile; productRef = 0404C9F22EF2AB2100A3C7B0 /* BetterCodable */; };
 		0404C9F62EF2AD8000A3C7B0 /* SwifterSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0404C9F52EF2AD8000A3C7B0 /* SwifterSwift */; };
@@ -16,16 +15,31 @@
 		04213F972E869B340032BC02 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04213F762E8694AA0032BC02 /* WidgetKit.framework */; };
 		04213F982E869B340032BC02 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04213F782E8694AA0032BC02 /* SwiftUI.framework */; };
 		04213FA72E869B350032BC02 /* DemoWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 04213F962E869B340032BC02 /* DemoWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0424BBA42F176BE60055DF49 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0424BBA32F176BE60055DF49 /* SnapKit */; };
 		044EC6FE2EF2BCFF0089F046 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 044EC6FD2EF2BCFF0089F046 /* RxBlocking */; };
 		044EC7002EF2BCFF0089F046 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 044EC6FF2EF2BCFF0089F046 /* RxCocoa */; };
 		044EC7022EF2BCFF0089F046 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 044EC7012EF2BCFF0089F046 /* RxRelay */; };
-		046FC49A2EF39D7300DFCE21 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 046FC4992EF39D7300DFCE21 /* Toast */; };
 		046FC49D2EF39D8100DFCE21 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 046FC49C2EF39D8100DFCE21 /* Kingfisher */; };
-		046FC4A02EF3A06400DFCE21 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 046FC49F2EF3A06400DFCE21 /* CombineMoya */; };
-		046FC4A22EF3A06400DFCE21 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 046FC4A12EF3A06400DFCE21 /* Moya */; };
-		046FC4A42EF3A06400DFCE21 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 046FC4A32EF3A06400DFCE21 /* ReactiveMoya */; };
-		046FC4A62EF3A06400DFCE21 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 046FC4A52EF3A06400DFCE21 /* RxMoya */; };
-		0487B6142F04DF2E004E4DF1 /* SwiftyBeaver in Frameworks */ = {isa = PBXBuildFile; productRef = 0487B6132F04DF2E004E4DF1 /* SwiftyBeaver */; };
+		0473C1DE2F1E23D800B6B9E7 /* libpag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0473C1D52F1E219600B6B9E7 /* libpag.framework */; };
+		0473C1DF2F1E23D800B6B9E7 /* libpag.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0473C1D52F1E219600B6B9E7 /* libpag.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		048953F02F160EF000E451C5 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 048953EF2F160EF000E451C5 /* SnapKit */; };
+		048953F62F160F0C00E451C5 /* BetterCodable in Frameworks */ = {isa = PBXBuildFile; productRef = 048953F52F160F0C00E451C5 /* BetterCodable */; };
+		04B5C6432F176AA000164525 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 04B5C6422F176AA000164525 /* Kingfisher */; };
+		04C73BF62F1772A9004ADA70 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 04C73BF52F1772A9004ADA70 /* Lottie */; };
+		04C73BF92F1772C7004ADA70 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 04C73BF82F1772C7004ADA70 /* Toast */; };
+		04D8944A2F176DEE00D11C2C /* LookinServer in Frameworks */ = {isa = PBXBuildFile; productRef = 04D894492F176DEE00D11C2C /* LookinServer */; };
+		04D8944D2F176E8C00D11C2C /* SmartCodable in Frameworks */ = {isa = PBXBuildFile; productRef = 04D8944C2F176E8C00D11C2C /* SmartCodable */; };
+		04D894502F176F6400D11C2C /* BetterCodable in Frameworks */ = {isa = PBXBuildFile; productRef = 04D8944F2F176F6400D11C2C /* BetterCodable */; };
+		04D894532F176F7E00D11C2C /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 04D894522F176F7E00D11C2C /* RxBlocking */; };
+		04D894552F176F7E00D11C2C /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 04D894542F176F7E00D11C2C /* RxCocoa */; };
+		04D894572F176F7E00D11C2C /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 04D894562F176F7E00D11C2C /* RxRelay */; };
+		04DBF9B92F160FC400299F31 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 04DBF9B82F160FC400299F31 /* RxBlocking */; };
+		04DBF9BB2F160FC400299F31 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 04DBF9BA2F160FC400299F31 /* RxCocoa */; };
+		04DBF9BD2F160FC400299F31 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 04DBF9BC2F160FC400299F31 /* RxRelay */; };
+		04E590C72F0E3F0600B92B13 /* CommonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 04E590C62F0E3F0600B92B13 /* CommonKit */; };
+		04EBE9B72F1611EA006E1462 /* LookinServer in Frameworks */ = {isa = PBXBuildFile; productRef = 04EBE9B62F1611EA006E1462 /* LookinServer */; };
+		04EBE9BA2F16120E006E1462 /* SmartCodable in Frameworks */ = {isa = PBXBuildFile; productRef = 04EBE9B92F16120E006E1462 /* SmartCodable */; };
+		04F316342F1613F100DC4CCD /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 04F316332F1613F100DC4CCD /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +64,17 @@
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0473C1E02F1E23D800B6B9E7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0473C1DF2F1E23D800B6B9E7 /* libpag.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -57,7 +82,11 @@
 		04213F782E8694AA0032BC02 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		04213F902E8694D70032BC02 /* ActivityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ActivityKit.framework; path = System/Library/Frameworks/ActivityKit.framework; sourceTree = SDKROOT; };
 		04213F962E869B340032BC02 /* DemoWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DemoWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0473C1D52F1E219600B6B9E7 /* libpag.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libpag.framework; sourceTree = "<group>"; };
 		04A0B2652E83B29A00BC30D3 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AE3B7A2F20C77200AF44D0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		04AE3B7C2F20C77200AF44D0 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		04E590C42F0E3EA100B92B13 /* CommonKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CommonKit; path = Packages/CommonKit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -110,22 +139,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				046FC4A62EF3A06400DFCE21 /* RxMoya in Frameworks */,
 				044EC7022EF2BCFF0089F046 /* RxRelay in Frameworks */,
+				04DBF9BB2F160FC400299F31 /* RxCocoa in Frameworks */,
 				0404C9F02EF2AAD900A3C7B0 /* SnapKit in Frameworks */,
-				046FC4A02EF3A06400DFCE21 /* CombineMoya in Frameworks */,
 				0404C9F92EF2AEAA00A3C7B0 /* LookinServer in Frameworks */,
+				04DBF9BD2F160FC400299F31 /* RxRelay in Frameworks */,
 				0404C9FC2EF2AF5A00A3C7B0 /* SmartCodable in Frameworks */,
+				04F316342F1613F100DC4CCD /* Kingfisher in Frameworks */,
 				0404C9F32EF2AB2100A3C7B0 /* BetterCodable in Frameworks */,
-				0487B6142F04DF2E004E4DF1 /* SwiftyBeaver in Frameworks */,
-				046FC4A22EF3A06400DFCE21 /* Moya in Frameworks */,
-				046FC4A42EF3A06400DFCE21 /* ReactiveMoya in Frameworks */,
+				048953F02F160EF000E451C5 /* SnapKit in Frameworks */,
+				04D8944A2F176DEE00D11C2C /* LookinServer in Frameworks */,
+				04EBE9BA2F16120E006E1462 /* SmartCodable in Frameworks */,
+				04D8944D2F176E8C00D11C2C /* SmartCodable in Frameworks */,
+				04C73BF92F1772C7004ADA70 /* Toast in Frameworks */,
+				04D894552F176F7E00D11C2C /* RxCocoa in Frameworks */,
+				0424BBA42F176BE60055DF49 /* SnapKit in Frameworks */,
+				04E590C72F0E3F0600B92B13 /* CommonKit in Frameworks */,
+				04D894572F176F7E00D11C2C /* RxRelay in Frameworks */,
 				0404C9F62EF2AD8000A3C7B0 /* SwifterSwift in Frameworks */,
-				0404C9ED2EF2AA2900A3C7B0 /* Lottie in Frameworks */,
+				048953F62F160F0C00E451C5 /* BetterCodable in Frameworks */,
 				044EC7002EF2BCFF0089F046 /* RxCocoa in Frameworks */,
+				04DBF9B92F160FC400299F31 /* RxBlocking in Frameworks */,
+				0473C1DE2F1E23D800B6B9E7 /* libpag.framework in Frameworks */,
+				04C73BF62F1772A9004ADA70 /* Lottie in Frameworks */,
+				04B5C6432F176AA000164525 /* Kingfisher in Frameworks */,
 				046FC49D2EF39D8100DFCE21 /* Kingfisher in Frameworks */,
-				046FC49A2EF39D7300DFCE21 /* Toast in Frameworks */,
+				04EBE9B72F1611EA006E1462 /* LookinServer in Frameworks */,
 				044EC6FE2EF2BCFF0089F046 /* RxBlocking in Frameworks */,
+				04D894502F176F6400D11C2C /* BetterCodable in Frameworks */,
+				04D894532F176F7E00D11C2C /* RxBlocking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +177,7 @@
 		04A0B25C2E83B29A00BC30D3 = {
 			isa = PBXGroup;
 			children = (
+				04E590C42F0E3EA100B92B13 /* CommonKit */,
 				04A0B2672E83B29A00BC30D3 /* SwiftDemo */,
 				04213F992E869B340032BC02 /* DemoWidget */,
 				04A0B2662E83B29A00BC30D3 /* Products */,
@@ -157,6 +200,9 @@
 				04213F902E8694D70032BC02 /* ActivityKit.framework */,
 				04213F762E8694AA0032BC02 /* WidgetKit.framework */,
 				04213F782E8694AA0032BC02 /* SwiftUI.framework */,
+				0473C1D52F1E219600B6B9E7 /* libpag.framework */,
+				04AE3B7A2F20C77200AF44D0 /* Cocoa.framework */,
+				04AE3B7C2F20C77200AF44D0 /* XcodeKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,6 +238,7 @@
 				04A0B2622E83B29A00BC30D3 /* Frameworks */,
 				04A0B2632E83B29A00BC30D3 /* Resources */,
 				04213F8B2E8694AB0032BC02 /* Embed Foundation Extensions */,
+				0473C1E02F1E23D800B6B9E7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,7 +260,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2600;
+				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					04213F952E869B340032BC02 = {
@@ -221,6 +268,7 @@
 					};
 					04A0B2642E83B29A00BC30D3 = {
 						CreatedOnToolsVersion = 26.0.1;
+						LastSwiftMigration = 2620;
 					};
 				};
 			};
@@ -234,17 +282,15 @@
 			mainGroup = 04A0B25C2E83B29A00BC30D3;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				0404C9EB2EF2AA2900A3C7B0 /* XCRemoteSwiftPackageReference "lottie-spm" */,
-				0404C9EE2EF2AAD900A3C7B0 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				0404C9F12EF2AB2100A3C7B0 /* XCRemoteSwiftPackageReference "BetterCodable" */,
-				0404C9F42EF2AD8000A3C7B0 /* XCRemoteSwiftPackageReference "SwifterSwift" */,
-				0404C9F72EF2AEAA00A3C7B0 /* XCRemoteSwiftPackageReference "LookinServer" */,
-				0404C9FA2EF2AF5A00A3C7B0 /* XCRemoteSwiftPackageReference "SmartCodable" */,
-				044EC6FC2EF2BCFF0089F046 /* XCRemoteSwiftPackageReference "RxSwift" */,
-				046FC4982EF39D7300DFCE21 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
-				046FC49B2EF39D8100DFCE21 /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				046FC49E2EF3A06400DFCE21 /* XCRemoteSwiftPackageReference "Moya" */,
-				0487B6122F04DF2E004E4DF1 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */,
+				04E590C52F0E3F0600B92B13 /* XCLocalSwiftPackageReference "Packages/CommonKit" */,
+				04B5C6412F176AA000164525 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				0424BBA22F176BE60055DF49 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				04D894482F176DEE00D11C2C /* XCRemoteSwiftPackageReference "LookinServer" */,
+				04D8944B2F176E8C00D11C2C /* XCRemoteSwiftPackageReference "SmartCodable" */,
+				04D8944E2F176F6400D11C2C /* XCRemoteSwiftPackageReference "BetterCodable" */,
+				04D894512F176F7D00D11C2C /* XCRemoteSwiftPackageReference "RxSwift" */,
+				04C73BF42F1772A9004ADA70 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				04C73BF72F1772C7004ADA70 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 04A0B2662E83B29A00BC30D3 /* Products */;
@@ -431,10 +477,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V473AR7A7F;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HG;
@@ -460,6 +511,8 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftDemo/SwiftDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -502,10 +555,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V473AR7A7F;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HG;
@@ -531,6 +589,8 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftDemo/SwiftDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -542,10 +602,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V473AR7A7F;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HG;
@@ -571,6 +636,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftDemo/SwiftDemo-Bridging-Header.h";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -733,15 +799,14 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		0404C9EB2EF2AA2900A3C7B0 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.5.2;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		04E590C52F0E3F0600B92B13 /* XCLocalSwiftPackageReference "Packages/CommonKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/CommonKit;
 		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
 		0404C9EE2EF2AAD900A3C7B0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -782,20 +847,20 @@
 				minimumVersion = 5.1.7;
 			};
 		};
+		0424BBA22F176BE60055DF49 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
 		044EC6FC2EF2BCFF0089F046 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 6.9.1;
-			};
-		};
-		046FC4982EF39D7300DFCE21 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/scalessec/Toast-Swift";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.1.1;
 			};
 		};
 		046FC49B2EF39D8100DFCE21 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
@@ -806,30 +871,113 @@
 				minimumVersion = 8.6.2;
 			};
 		};
-		046FC49E2EF3A06400DFCE21 /* XCRemoteSwiftPackageReference "Moya" */ = {
+		048953EE2F160EF000E451C5 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Moya/Moya.git";
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 15.0.3;
+				minimumVersion = 5.7.1;
 			};
 		};
-		0487B6122F04DF2E004E4DF1 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */ = {
+		048953F42F160F0C00E451C5 /* XCRemoteSwiftPackageReference "BetterCodable" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SwiftyBeaver/SwiftyBeaver";
+			repositoryURL = "https://github.com/marksands/BetterCodable";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.1.1;
+				minimumVersion = 0.4.0;
+			};
+		};
+		04B5C6412F176AA000164525 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.6.2;
+			};
+		};
+		04C73BF42F1772A9004ADA70 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.6.0;
+			};
+		};
+		04C73BF72F1772C7004ADA70 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+		04D894482F176DEE00D11C2C /* XCRemoteSwiftPackageReference "LookinServer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/QMUI/LookinServer/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.8;
+			};
+		};
+		04D8944B2F176E8C00D11C2C /* XCRemoteSwiftPackageReference "SmartCodable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/iAmMccc/SmartCodable.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		04D8944E2F176F6400D11C2C /* XCRemoteSwiftPackageReference "BetterCodable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marksands/BetterCodable";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+		04D894512F176F7D00D11C2C /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.9.1;
+			};
+		};
+		04DBF9B72F160FC400299F31 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.9.1;
+			};
+		};
+		04EBE9B52F1611EA006E1462 /* XCRemoteSwiftPackageReference "LookinServer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/QMUI/LookinServer/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.8;
+			};
+		};
+		04EBE9B82F16120E006E1462 /* XCRemoteSwiftPackageReference "SmartCodable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/iAmMccc/SmartCodable.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		04F316322F1613F100DC4CCD /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.6.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		0404C9EC2EF2AA2900A3C7B0 /* Lottie */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0404C9EB2EF2AA2900A3C7B0 /* XCRemoteSwiftPackageReference "lottie-spm" */;
-			productName = Lottie;
-		};
 		0404C9EF2EF2AAD900A3C7B0 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 0404C9EE2EF2AAD900A3C7B0 /* XCRemoteSwiftPackageReference "SnapKit" */;
@@ -855,6 +1003,11 @@
 			package = 0404C9FA2EF2AF5A00A3C7B0 /* XCRemoteSwiftPackageReference "SmartCodable" */;
 			productName = SmartCodable;
 		};
+		0424BBA32F176BE60055DF49 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0424BBA22F176BE60055DF49 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
 		044EC6FD2EF2BCFF0089F046 /* RxBlocking */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 044EC6FC2EF2BCFF0089F046 /* XCRemoteSwiftPackageReference "RxSwift" */;
@@ -870,40 +1023,99 @@
 			package = 044EC6FC2EF2BCFF0089F046 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxRelay;
 		};
-		046FC4992EF39D7300DFCE21 /* Toast */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 046FC4982EF39D7300DFCE21 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
-			productName = Toast;
-		};
 		046FC49C2EF39D8100DFCE21 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 046FC49B2EF39D8100DFCE21 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
 		};
-		046FC49F2EF3A06400DFCE21 /* CombineMoya */ = {
+		048953EF2F160EF000E451C5 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 046FC49E2EF3A06400DFCE21 /* XCRemoteSwiftPackageReference "Moya" */;
-			productName = CombineMoya;
+			package = 048953EE2F160EF000E451C5 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
 		};
-		046FC4A12EF3A06400DFCE21 /* Moya */ = {
+		048953F52F160F0C00E451C5 /* BetterCodable */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 046FC49E2EF3A06400DFCE21 /* XCRemoteSwiftPackageReference "Moya" */;
-			productName = Moya;
+			package = 048953F42F160F0C00E451C5 /* XCRemoteSwiftPackageReference "BetterCodable" */;
+			productName = BetterCodable;
 		};
-		046FC4A32EF3A06400DFCE21 /* ReactiveMoya */ = {
+		04B5C6422F176AA000164525 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 046FC49E2EF3A06400DFCE21 /* XCRemoteSwiftPackageReference "Moya" */;
-			productName = ReactiveMoya;
+			package = 04B5C6412F176AA000164525 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
-		046FC4A52EF3A06400DFCE21 /* RxMoya */ = {
+		04C73BF52F1772A9004ADA70 /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 046FC49E2EF3A06400DFCE21 /* XCRemoteSwiftPackageReference "Moya" */;
-			productName = RxMoya;
+			package = 04C73BF42F1772A9004ADA70 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
 		};
-		0487B6132F04DF2E004E4DF1 /* SwiftyBeaver */ = {
+		04C73BF82F1772C7004ADA70 /* Toast */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 0487B6122F04DF2E004E4DF1 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */;
-			productName = SwiftyBeaver;
+			package = 04C73BF72F1772C7004ADA70 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+		04D894492F176DEE00D11C2C /* LookinServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04D894482F176DEE00D11C2C /* XCRemoteSwiftPackageReference "LookinServer" */;
+			productName = LookinServer;
+		};
+		04D8944C2F176E8C00D11C2C /* SmartCodable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04D8944B2F176E8C00D11C2C /* XCRemoteSwiftPackageReference "SmartCodable" */;
+			productName = SmartCodable;
+		};
+		04D8944F2F176F6400D11C2C /* BetterCodable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04D8944E2F176F6400D11C2C /* XCRemoteSwiftPackageReference "BetterCodable" */;
+			productName = BetterCodable;
+		};
+		04D894522F176F7E00D11C2C /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04D894512F176F7D00D11C2C /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		04D894542F176F7E00D11C2C /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04D894512F176F7D00D11C2C /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		04D894562F176F7E00D11C2C /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04D894512F176F7D00D11C2C /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		04DBF9B82F160FC400299F31 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04DBF9B72F160FC400299F31 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		04DBF9BA2F160FC400299F31 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04DBF9B72F160FC400299F31 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		04DBF9BC2F160FC400299F31 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04DBF9B72F160FC400299F31 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		04E590C62F0E3F0600B92B13 /* CommonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CommonKit;
+		};
+		04EBE9B62F1611EA006E1462 /* LookinServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04EBE9B52F1611EA006E1462 /* XCRemoteSwiftPackageReference "LookinServer" */;
+			productName = LookinServer;
+		};
+		04EBE9B92F16120E006E1462 /* SmartCodable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04EBE9B82F16120E006E1462 /* XCRemoteSwiftPackageReference "SmartCodable" */;
+			productName = SmartCodable;
+		};
+		04F316332F1613F100DC4CCD /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04F316322F1613F100DC4CCD /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

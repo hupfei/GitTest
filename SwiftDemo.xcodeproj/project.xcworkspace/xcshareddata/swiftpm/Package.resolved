@@ -1,15 +1,6 @@
 {
-  "originHash" : "b2edf8a22a617d426be91f59250856e50be2ca0b17fba0060765d10043c7691b",
+  "originHash" : "2b967a09cf90a4fc78b1b70563ad1d00f3b9cf31f5d1aefa549d75cd465b1244",
   "pins" : [
-    {
-      "identity" : "alamofire",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Alamofire/Alamofire.git",
-      "state" : {
-        "revision" : "513364f870f6bfc468f9d2ff0a95caccc10044c5",
-        "version" : "5.10.2"
-      }
-    },
     {
       "identity" : "bettercodable",
       "kind" : "remoteSourceControl",
@@ -42,26 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/airbnb/lottie-spm.git",
       "state" : {
-        "revision" : "04f2fd18cc9404a0a0917265a449002674f24ec9",
-        "version" : "4.5.2"
-      }
-    },
-    {
-      "identity" : "moya",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Moya/Moya.git",
-      "state" : {
-        "revision" : "c263811c1f3dbf002be9bd83107f7cdc38992b26",
-        "version" : "15.0.3"
-      }
-    },
-    {
-      "identity" : "reactiveswift",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ReactiveCocoa/ReactiveSwift.git",
-      "state" : {
-        "revision" : "c43bae3dac73fdd3cb906bd5a1914686ca71ed3c",
-        "version" : "6.7.0"
+        "revision" : "69faaefa7721fba9e434a52c16adf4329c9084db",
+        "version" : "4.6.0"
       }
     },
     {
@@ -78,8 +51,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/iAmMccc/SmartCodable.git",
       "state" : {
-        "revision" : "a0efc2c1c6ae7f0658a430e7c59044a4d6e2e94f",
-        "version" : "5.1.7"
+        "revision" : "e8f8f63d2345c0b3e66a36f887fcfd83b0f854c2",
+        "version" : "6.0.0"
       }
     },
     {
@@ -105,17 +78,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SwifterSwift/SwifterSwift.git",
       "state" : {
-        "revision" : "5d948a15446bddb6c367bc7e7100cfcbaa0e9b57",
-        "version" : "8.0.0"
-      }
-    },
-    {
-      "identity" : "swiftybeaver",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/SwiftyBeaver/SwiftyBeaver",
-      "state" : {
-        "revision" : "8cba041db09596183331d123f337d0eb2e6e8e91",
-        "version" : "2.1.1"
+        "revision" : "39fa28c90a3ebe3d53f80289304fd880cf2c42d0",
+        "version" : "6.2.0"
       }
     },
     {

@@ -5,45 +5,42 @@
 //  Created by hupfei on 2025/12/10.
 //
 
-import UIKit
+import CommonKit
 import SnapKit
+import UIKit
 
 class TestVC: UIViewController {
     
-    private lazy var redView: UIView = {
-        let view = UIView()
-        view.backgroundColor = .red
-        return view
+    private lazy var label: UILabel = {
+        let label = UILabel()
+        label.font = UIFont(name: "IBMPlexSerif", size: 16)!
+        label.text = "Hello"
+        return label
+    }()
+    
+    private lazy var label1: UILabel = {
+        let label = UILabel()
+        label.font = UIFont(name: "IBMPlexSerif-SmBld", size: 16)!
+        label.text = "Hello"
+        return label
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.addSubview(redView)
-        redView.snp.makeConstraints { make in
+        view.addSubview(label)
+        label.snp.makeConstraints { make in
             make.center.equalToSuperview()
-            make.height.equalTo(100)
-            make.horizontalEdges.equalToSuperview().inset(30)
         }
         
-        let btn = UIButton(type: .system)
-        btn.setTitle("change", for: .normal)
-        btn.addTarget(self, action: #selector(btnClick), for: .touchUpInside)
-        view.addSubview(btn)
-        btn.snp.makeConstraints { make in
-            make.top.equalToSuperview().offset(150)
+        view.addSubview(label1)
+        label1.snp.makeConstraints { make in
+            make.top.equalTo(label.snp.bottom).offset(20)
             make.centerX.equalToSuperview()
         }
     }
-    
-    @objc func btnClick() {
-        UIView.animate(withDuration: 2) {
-            self.redView.snp.remakeConstraints { make in
-                make.width.equalTo(200)
-                make.center.equalToSuperview()
-                make.height.equalTo(50)
-            }
-            self.view.layoutIfNeeded()
-        }
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
     }
 }
